@@ -82,7 +82,7 @@
     <!-- spring3.2.2end-->
 
     <!-- 日志包start -->
-    <dependency>
+    <!-- <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
         <version>1.7.5</version>
@@ -101,7 +101,23 @@
         <groupId>commons-logging</groupId>
         <artifactId>commons-logging</artifactId>
         <version>1.1.3</version>
-    </dependency>
+    </dependency> -->
+    <!--添加log4j2相关jar包-->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-api</artifactId>
+	    <version>2.13.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-core</artifactId>
+	    <version>2.13.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-web</artifactId>
+	    <version>2.13.0</version>
+	</dependency>
     <!-- 日志包end -->
 
     <!-- mybatis框架相关包 start -->
@@ -152,7 +168,7 @@
     <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
-        <version>1.1.15</version>
+        <version>1.2.25</version>
     </dependency>
 
     <!-- 阿里巴巴druid连接池 -->

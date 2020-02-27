@@ -15,9 +15,9 @@
 	<!-- 自动扫描 -->
 	<context:component-scan base-package="com.chillax" />
 	<!-- 导入DAO配置 -->
-	<import resource="../classes/spring/spring-dao.xml"/>
+	<import resource="spring-dao.xml"/>
 	<!-- 导入数据库配置 -->
-	<import resource="../classes/spring/spring-db.xml"/>
+	<import resource="spring-db.xml"/>
 	<!-- 导入数据库配置 -->
 	
 </beans>
